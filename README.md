@@ -16,3 +16,14 @@ public:
         return {};
     }
 };
+int main() {
+    vector<int> arr = {5, 3, 1, 4, 2};
+
+    sort(arr.begin(), arr.end());
+
+    for(int x : arr) {
+        cout << x << " ";
+    }
+
+    return 0;
+}
